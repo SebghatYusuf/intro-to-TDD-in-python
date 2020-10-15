@@ -10,7 +10,10 @@ def check_email_format(email):
         return "Email format is OK"
 
 
-# Using pytest.raises in a with block as a context manager, we can check that an exception is actually raised if an invalid email is given. Running the tests on the code as it is above should fail:
+# Using pytest.raises in a with block as a context manager,
+#  we can check that an exception is actually raised
+#  if an invalid email is given. Running the tests on
+#  the code as it is above should fail:
 def test_email_exception():
     """test that exception is raised for invalid email"""
     with pytest.raises(Exception):
