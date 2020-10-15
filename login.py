@@ -17,4 +17,4 @@ def check_email_format(email):
 def test_email_exception():
     """test that exception is raised for invalid email"""
     with pytest.raises(Exception):
-        assert check_email_format("fine@gmail.com")
+        assert check_email_format("bademail.com")
