@@ -12,7 +12,7 @@ def test_other_stuff(): #This one will be skipped
         pytest.skip("Setup failed")
     else:
         pass
-
+ 
 # If you prefer to check that the condition is satisfied 
 # before the test starts, then you can use skipif:
 
